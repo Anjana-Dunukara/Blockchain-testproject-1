@@ -1,17 +1,18 @@
 {
-  "name": "inbox",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ganache-cli": "^6.12.2",
-    "mocha": "^10.2.0",
-    "solc": "^0.4.17",
-    "web3": "^1.10.0"
-  }
+    "name": "inbox",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@truffle/hdwallet-provider": "^2.1.11",
+        "ganache-cli": "^6.12.2",
+        "mocha": "^10.2.0",
+        "solc": "^0.4.17",
+        "web3": "^1.10.0"
+    }
 }
